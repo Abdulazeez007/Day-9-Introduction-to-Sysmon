@@ -22,7 +22,7 @@ The latest version of Sysmon, **15.15**, supports 30 different event IDs, each p
 - **Boot Process Monitoring**: Captures early boot process events, detecting advanced kernel-mode malware activity.
 
 ![insert image here](image.jpg)
-** Sysmon Event IDs and Descriptions**
+**Sysmon Event IDs and Descriptions**
 
 ### The Power of Process GUID
 
