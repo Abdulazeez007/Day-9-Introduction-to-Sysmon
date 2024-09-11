@@ -1,4 +1,5 @@
 🛡️ **Day9** - MYDFIR **30DAYSSOCChallenge**: Installing Sysmon on Windows Server 2022 🛡️
+---
 
 Today, We took another exciting step in building a robust SOC infrastructure by installing Sysmon (System Monitor) on my Windows Server 2022. Sysmon is a key tool for monitoring and logging critical system events that aid in detecting malicious activity and understanding attack vectors.
 
@@ -27,14 +28,15 @@ Now that Sysmon is up and running, I’ll focus on monitoring these critical eve
 
 ---
 1️⃣ **Event ID 1**: Process Creation
----
-🌐 **Event ID 3**: Network Connections
----
-🔑 **Event ID 10**: Process Access
----
-📝 **Event ID 13**: Registry Object Added or Deleted
----
+--
+🛡️ **Event ID 1116**: Antimalware Detection
+--
+⚔️ **Event ID 1117**: Antimalware Action Taken
+--
+🚨  **Event ID 5001**: Real-Time Protection Disabled
+--
 🔍 **Event ID 22**: DNS Query and many others as we progress on.
+--
 
 🚀 **Next Steps**
 With Sysmon fully operational, I'll be integrating it into the ELK stack for centralized log management and analysis. This will enhance our ability to detect and respond to potential threats in real-time.
