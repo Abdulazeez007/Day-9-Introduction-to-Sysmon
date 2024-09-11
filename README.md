@@ -27,9 +27,13 @@ Now that Sysmon is up and running, I’ll focus on monitoring these critical eve
 
 ---
 1️⃣ **Event ID 1**: Process Creation
+---
 🌐 **Event ID 3**: Network Connections
+---
 🔑 **Event ID 10**: Process Access
+---
 📝 **Event ID 13**: Registry Object Added or Deleted
+---
 🔍 **Event ID 22**: DNS Query and many others as we progress on.
 
 🚀 **Next Steps**
@@ -37,4 +41,4 @@ With Sysmon fully operational, I'll be integrating it into the ELK stack for cen
 
 Stay tuned for more updates as I continue my journey in the MYDFIR SOC Challenge!
 
-hashtag#CyberSecurity hashtag#Sysmon hashtag#SOCChallenge hashtag#IncidentResponse hashtag#WindowsServer hashtag#ThreatDetection hashtag#DFIR
+CyberSecurity Sysmon SOCChallenge IncidentResponse WindowsServer ThreatDetection **DFIR**
