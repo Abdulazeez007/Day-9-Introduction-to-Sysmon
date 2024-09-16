@@ -9,6 +9,7 @@ Sysmon extends Windows' logging capabilities, enabling the collection of detaile
 Steps to Install Sysmon
 🔗 **Download Sysmon**:
 I started by downloading Sysmon from the official Microsoft Learn website. You can find the download link here: https://lnkd.in/dGcT8Dey
+
 ![Alt text](https://raw.githubusercontent.com/Virus192/Day-9-Introduction-to-Sysmon/main/Images/IMG-20240911-WA0223.jpg)
 
 
@@ -17,15 +18,18 @@ Once downloaded, I extracted the files to a folder on the Windows Server. The zi
 
 ⚙️ **Run the Installation**:
 I installed Sysmon using the following command in PowerShell (as Administrator): **.\Sysmon.exe* -i sysmonconfig.xml*
+
 ![Alt text](https://raw.githubusercontent.com/Virus192/Day-9-Introduction-to-Sysmon/main/Images/IMG-20240911-WA0224.jpg)
 
 📝 **Custom Configuration**:
 For the configuration, I opted for hashtag#Olaf Sysmon configuration as it is widely recognized and covers key event IDs essential for security monitoring. You can download it from their GitHub repository.
+
 ![Alt text](https://raw.githubusercontent.com/Virus192/Day-9-Introduction-to-Sysmon/main/Images/IMG-20240911-WA0225.jpg)
 
 
 🔍 **Verify the Installation**:
 After installation, I verified that Sysmon was running by checking the service status.
+
 ![Alt text](https://github.com/Virus192/Day-9-Introduction-to-Sysmon/blob/main/Images/IMG-20240911-WA0226.jpg)
 
  
